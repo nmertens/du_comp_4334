@@ -1,0 +1,166 @@
+Output file
+
+Showing DataFrame and Schema
++---------+------------+----------+------+
+| playerID|birthCountry|birthState|height|
++---------+------------+----------+------+
+|aardsda01|         USA|        CO|    75|
+|aaronha01|         USA|        AL|    72|
+|aaronto01|         USA|        AL|    75|
+| aasedo01|         USA|        CA|    75|
+| abadan01|         USA|        FL|    73|
+| abadfe01|        D.R.| La Romana|    73|
+|abadijo01|         USA|        PA|    72|
+|abbated01|         USA|        PA|    71|
+|abbeybe01|         USA|        VT|    71|
+|abbeych01|         USA|        NE|    68|
+|abbotda01|         USA|        OH|    71|
+|abbotfr01|         USA|        OH|    70|
+|abbotgl01|         USA|        AR|    78|
+|abbotje01|         USA|        GA|    74|
+|abbotji01|         USA|        MI|    75|
+|abbotku01|         USA|        OH|    71|
+|abbotky01|         USA|        MA|    76|
+|abbotod01|         USA|        PA|    74|
+|abbotpa01|         USA|        CA|    75|
+| aberal01|         USA|        OH|    74|
++---------+------------+----------+------+
+only showing top 20 rows
+
+root
+ |-- playerID: string (nullable = true)
+ |-- birthCountry: string (nullable = true)
+ |-- birthState: string (nullable = true)
+ |-- height: long (nullable = true)
+
+Colorado Count SQL
++-----+
+|count|
++-----+
+|   88|
++-----+
+
+Colorado Count DataFrame functions
++-----+
+|count|
++-----+
+|   88|
++-----+
+
+Height By Country SQL
++--------------+-----------------+
+|  birthCountry|        avgheight|
++--------------+-----------------+
+|     Indonesia|             78.0|
+|       Belgium|             77.0|
+|       Jamaica|            75.25|
+|   Afghanistan|             75.0|
+|        Brazil|74.33333333333333|
+|      Honduras|             74.0|
+|     Singapore|             74.0|
+|          Guam|             74.0|
+|     Australia|             73.5|
+|   Netherlands|73.45454545454545|
+|   South Korea|73.41176470588235|
+|       Curacao|73.35714285714286|
+|         Spain|            73.25|
+|         Aruba|             73.0|
+|   Switzerland|             73.0|
+|     Lithuania|             73.0|
+|        Norway|             73.0|
+|   Philippines|             73.0|
+|         China|             73.0|
+|        Panama|72.89090909090909|
+|          D.R.|72.81959564541214|
+|        Taiwan|72.72727272727273|
+|        Sweden|72.66666666666667|
+|     Nicaragua|72.57142857142857|
+|       Germany|           72.375|
+|           USA|72.25721336370539|
+|     Venezuela| 72.2258064516129|
+|         Japan|72.20967741935483|
+|        Mexico|72.12711864406779|
+|American Samoa|             72.0|
+|  Saudi Arabia|             72.0|
+|      Slovakia|             72.0|
+|        Greece|             72.0|
+|       Bahamas|             72.0|
+|           CAN|71.97916666666667|
+|          P.R.|71.88142292490119|
+|        France|71.83333333333333|
+|       Austria|            71.75|
+|          Cuba|71.68205128205128|
+|      Colombia| 71.6470588235294|
+|        Poland|             71.6|
+|          V.I.|71.33333333333333|
+|         Italy|71.14285714285714|
+|      Viet Nam|             71.0|
+|        At Sea|             71.0|
+|Czech Republic|             71.0|
+|United Kingdom|70.37777777777778|
+|        Belize|             70.0|
+|              |             70.0|
+|        Russia|69.85714285714286|
+|       Ireland|69.55263157894737|
+|       Finland|             69.0|
+|       Denmark|             67.0|
++--------------+-----------------+
+
+Height By Country DataFrame functions
++--------------+-----------------+
+|  birthCountry|        avgheight|
++--------------+-----------------+
+|     Indonesia|             78.0|
+|       Belgium|             77.0|
+|       Jamaica|            75.25|
+|   Afghanistan|             75.0|
+|        Brazil|74.33333333333333|
+|      Honduras|             74.0|
+|     Singapore|             74.0|
+|          Guam|             74.0|
+|     Australia|             73.5|
+|   Netherlands|73.45454545454545|
+|   South Korea|73.41176470588235|
+|       Curacao|73.35714285714286|
+|         Spain|            73.25|
+|         Aruba|             73.0|
+|   Switzerland|             73.0|
+|     Lithuania|             73.0|
+|        Norway|             73.0|
+|   Philippines|             73.0|
+|         China|             73.0|
+|        Panama|72.89090909090909|
+|          D.R.|72.81959564541214|
+|        Taiwan|72.72727272727273|
+|        Sweden|72.66666666666667|
+|     Nicaragua|72.57142857142857|
+|       Germany|           72.375|
+|           USA|72.25721336370539|
+|     Venezuela| 72.2258064516129|
+|         Japan|72.20967741935483|
+|        Mexico|72.12711864406779|
+|American Samoa|             72.0|
+|  Saudi Arabia|             72.0|
+|      Slovakia|             72.0|
+|        Greece|             72.0|
+|       Bahamas|             72.0|
+|           CAN|71.97916666666667|
+|          P.R.|71.88142292490119|
+|        France|71.83333333333333|
+|       Austria|            71.75|
+|          Cuba|71.68205128205128|
+|      Colombia| 71.6470588235294|
+|        Poland|             71.6|
+|          V.I.|71.33333333333333|
+|         Italy|71.14285714285714|
+|      Viet Nam|             71.0|
+|        At Sea|             71.0|
+|Czech Republic|             71.0|
+|United Kingdom|70.37777777777778|
+|        Belize|             70.0|
+|              |             70.0|
+|        Russia|69.85714285714286|
+|       Ireland|69.55263157894737|
+|       Finland|             69.0|
+|       Denmark|             67.0|
++--------------+-----------------+

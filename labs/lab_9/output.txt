@@ -1,0 +1,36 @@
+Query 1
+Number of US airport: 549
+Number of US to US routes: 5450
+
+Query 2
++-----+
+| IATA|
++-----+
+|{AIA}|
+|{ORF}|
+|{CDR}|
++-----+
+
+Query 3
++----+----+
+|IATA|Hops|
++----+----+
+| ANV|   4|
+| AUK|   4|
+| CEM|   4|
+| HPB|   4|
+| HSL|   4|
+| KAL|   4|
+| MLL|   4|
+| NUL|   4|
+| OOK|   4|
+| SHG|   4|
+| TNC|   4|
+| TOG|   4|
+| VAK|   4|
+| VEE|   4|
+| WNA|   4|
+| WSN|   4|
+| ARC|   5|
+| NME|   5|
++----+----+

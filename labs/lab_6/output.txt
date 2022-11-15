@@ -1,0 +1,61 @@
+Sample View of Joined DataFrame:
++------+---------+---------+---------+--------------------+
+|teamID| playerID|nameFirst| nameLast|            teamName|
++------+---------+---------+---------+--------------------+
+|   BAL| aasedo01|      Don|     Aase|   Baltimore Orioles|
+|   PHI|allendi01|     Dick|    Allen|Philadelphia Blue...|
+|   NY1|adamsac01|      Ace|    Adams|    New York Gothams|
+|   PHI|abreubo01|    Bobby|    Abreu|Philadelphia Blue...|
+|   NYN|alfoned01|  Edgardo|  Alfonzo|       New York Mets|
+|   NY1|adamsac01|      Ace|    Adams|     New York Giants|
+|   DET|aguirha01|     Hank|  Aguirre|      Detroit Tigers|
+|   ML1|adcocjo01|      Joe|   Adcock|    Milwaukee Braves|
+|   CHA|allendi01|     Dick|    Allen|   Chicago White Sox|
+|   PHI|allendi01|     Dick|    Allen|Philadelphia Phil...|
+|   MIN|aguilri01|     Rick| Aguilera|     Minnesota Twins|
+|   ML1|aaronha01|     Hank|    Aaron|    Milwaukee Braves|
+|   CHA| ageeto01|   Tommie|     Agee|   Chicago White Sox|
+|   DET|alexado01|    Doyle|Alexander|      Detroit Tigers|
+|   PHI|allendi01|     Dick|    Allen|Philadelphia Quakers|
+|   SLN|allendi01|     Dick|    Allen|    St. Louis Browns|
+|   ATL|aaronha01|     Hank|    Aaron|      Atlanta Braves|
+|   ML4|aaronha01|     Hank|    Aaron|   Milwaukee Brewers|
+|   PHI|abreubo01|    Bobby|    Abreu|Philadelphia Quakers|
+|   SLN|allendi01|     Dick|    Allen| St. Louis Perfectos|
++------+---------+---------+---------+--------------------+
+
+Query Output:
++----------------+
+|CR Allstar Total|
++----------------+
+|              24|
++----------------+
+
++---------+----------+
+|nameFirst|  nameLast|
++---------+----------+
+|  Jeffrey|  Hammonds|
+|  Preston|    Wilson|
+|     Matt|  Holliday|
+|     Brad|     Hawpe|
+|    Nolan|   Arenado|
+|   Andres| Galarraga|
+|    Larry|    Walker|
+|  Charlie|  Blackmon|
+|     Todd|    Helton|
+|    Aaron|      Cook|
+|   Ubaldo|   Jimenez|
+|    Shawn|    Chacon|
+|    Jason|   Marquis|
+|    Ellis|     Burks|
+|     Jeff|   Cirillo|
+|     Troy|Tulowitzki|
+|    Vinny|  Castilla|
+|     Mike|   Hampton|
+|    Brian|   Fuentes|
+|  Michael|   Cuddyer|
+|       DJ|  LeMahieu|
+|   Carlos|  Gonzalez|
+|     Eric|     Young|
+|    Dante|  Bichette|
++---------+----------+
